@@ -33,6 +33,8 @@ ro.colorpick_adjust=true
 #Property to enable display default color mode
 vendor.display.enable_default_color_mode=1
 
+sys.use_fifo_ui=1
+
 # Display Properties as per treble compliance
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
@@ -266,3 +268,4 @@ ro.location.osnlp.region.package=
 persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1

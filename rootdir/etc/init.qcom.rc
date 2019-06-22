@@ -1098,7 +1098,7 @@ service profiler_daemon /system/bin/profiler_daemon
 service charger /sbin/chargeonlymode
     class charger
     group system graphics
-    seclabel u:r:charger:s0
+    seclabel u:r:healthd:s0
 
 service hvdcp /system/bin/hvdcp
     class core
